@@ -1,6 +1,4 @@
-# Projet Gantt
-===
-Répertoire racine du projet INFO2.
+test
+====
 
-## Description du projet
-Créer une application web permettant d'afficher l'état de réservation des noeuds d'un Cluster.
+A Symfony project created on March 19, 2015, 7:02 pm.
