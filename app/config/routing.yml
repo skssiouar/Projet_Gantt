@@ -1,6 +1,6 @@
 app_gantt:
     resource: "@AppGanttBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /appGantt
 
 app:
     resource: "@AppBundle/Controller/"

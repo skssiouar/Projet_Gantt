@@ -1,3 +1,21 @@
-app_gantt_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: AppGanttBundle:Default:index }
+# src/AppGanttBundle/Resources/config/routing.yml
+
+# route vers la page de connexion du site : app_dev.php/appGantt/
+gantt_home:
+    path:     /
+    defaults: { _controller: AppGanttBundle:Public:index }
+
+# route vers la page principale du site : app_dev.php/appGantt/main_diagram
+gantt_diagram:
+    path: /main_diagram
+    defaults: { _controller: AppGanttBundle:Public:main_diagram }
+
+# route vers la page d'information d'un noeud du cluster du site : app_dev.php/appGantt/node_info
+gantt_node_info:
+    path: /node_info
+    defaults: { _controller: AppGanttBundle:Public:node_info }
+
+# route vers la page de la liste des noeuds libres du cluster du site : app_dev.php/appGantt/free_nodes
+gantt_free_nodes:
+    path: /free_nodes
+    defaults: { _controller: AppGanttBundle:Public:free_nodes }
