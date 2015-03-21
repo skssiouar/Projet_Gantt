@@ -23,4 +23,4 @@ On pourrait afficher un petit diagramme de Gantt des jobs de ce noeud, la liste 
 ### La page des noeuds libres
 On pourrait afficher la liste des noeuds libres du cluster, c'est à dire sans réservation.
 
-Si quelqu'un a d'autres idées de page, qu'il les mette dans à la fin de ce fichier.
+Si quelqu'un a d'autres idées de page, qu'il les mette à la fin de ce fichier.
