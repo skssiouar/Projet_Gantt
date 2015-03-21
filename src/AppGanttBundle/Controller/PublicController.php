@@ -14,17 +14,17 @@ class PublicController extends Controller {
     }
 
 
-    public function main_diagramAction() {
+    public function mainDiagramAction() {
     	return $this->render('AppGanttBundle:Public:main_diagram.html.twig');
     }
 
 
-    public function node_infoAction() {
+    public function nodeInfoAction() {
     	return $this->render('AppGanttBundle:Public:node_info.html.twig');
     }
 
 
-    public function free_nodesAction() {
+    public function freeNodesAction() {
     	return $this->render('AppGanttBundle:Public:free_nodes.html.twig');
     }
 }
