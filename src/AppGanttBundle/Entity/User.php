@@ -12,14 +12,14 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="user_table")
  * @ORM\Entity(repositoryClass="AppGanttBundle\Entity\UserRepository")
  */
-class Advert {
+class User {
 	/**
-	 * @ORM\Column(name="creation_time", type="int", nullable=false)
+	 * @ORM\Column(name="creation_time", type="int", options={"unsigned":true}, nullable=false)
 	 */
 	private $creationTime;
 
 	/**
-	 * @ORM\Column(name="mod_time", type="int", optiions={"default:0"}, nullable=false)
+	 * @ORM\Column(name="mod_time", type="int", options={"default":0, "unsigned":true} , nullable=false)
 	 */
 	private $modTime = 0;
 
