@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>AppGantt - Page d'accueil</title>
-		<meta charset="utf-8" />
-	</head>
+{% extends "AppGanttBundle::layout.html.twig" %}
 
-	<body>
-		<h1>AppGantt - Affichage d'un diagramme</h1>
-		<p>
-		</p>
-	</body>
-</html>
+{% block title %}{{ parent() }} - Diagramme{% endblock %}
+
+{% block body %}
+	<h1>Page principale de l'application</h1>
+	<p>
+		Cette application est encore en phase de développement...
+	</p>
+{% endblock %}

@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>AppGantt - Connexion</title>
-		<meta charset="utf-8" />
-	</head>
+{% extends "AppGanttBundle::layout.html.twig" %}
 
-	<body>
-		<h1>Hello!</h1>
-		<p>
-			Vue par défaut de index.<br />
-		</p>
-	</body>
-</html>
+{% block title %}{{ parent() }} - Index{% endblock %}
+
+{% block body %}
+	<h1>Bienvenue sur l'application AppGantt</h1>
+	<p>
+		Cette application est encore en phase de développement...
+	</p>
+{% endblock %}
