@@ -2,6 +2,6 @@ app_gantt:
     resource: "@AppGanttBundle/Resources/config/routing.yml"
     prefix:   /appGantt
 
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation
