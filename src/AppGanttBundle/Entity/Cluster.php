@@ -23,9 +23,9 @@ class Cluster {
 	private $modTime = 0;
 
 	/**
-	 * @ORM\Column(name="deleted", type="int", options={"default:0"})
+	 * @ORM\Column(name="deleted", type="boolean", options={"default:"false})
 	 */
-	private $deleted = 0;
+	private $deleted = false;
 
 	/**
 	 * @ORM\Column(name="name", type="string", length=20, nullable=false)
@@ -49,22 +49,22 @@ class Cluster {
 	private $lastPort = 0;
 
 	/**
-	 * @ORM\Column(name="rpc_version", type="int", options={"default":0, "unsigned":true}, nullable=false)
+	 * @ORM\Column(name="rpc_version", type="smallint", options={"default":0, "unsigned":true}, nullable=false)
 	 */
 	private $rpcVersion = 0;
 
 	/**
-	 * @ORM\Column(name="classification", type="int", options={"default":0, "unsigned":true})
+	 * @ORM\Column(name="classification", type="smallint", options={"default":0, "unsigned":true})
 	 */
 	private $classification = 0;
 
 	/**
-	 * @ORM\Column(name="dimensions", type="int", options={"default":1, "unsigned":true})
+	 * @ORM\Column(name="dimensions", type="smallint", options={"default":1, "unsigned":true})
 	 */
 	private $dimensions = 1;
 
 	/**
-	 * @ORM\Column(name="plugin_id_select", type="int", options={"default":0, "unsigned":true})
+	 * @ORM\Column(name="plugin_id_select", type="smallint", options={"default":0, "unsigned":true})
 	 */
 	private $pluginIdSelect = 0;
 

@@ -24,9 +24,9 @@ class User {
 	private $modTime = 0;
 
 	/**
-	 * @ORM\Column(name="deleted", type="int", options={"default:0"})
+	 * @ORM\Column(name="deleted", type="boolean", options={"default:"false})
 	 */
-	private $deleted = 0;
+	private $deleted = false;
 
 	/**
 	 * @ORM\Column(name="name", type="string", length=20, nullable=false)
@@ -35,7 +35,7 @@ class User {
 	private $name;
 
 	/**
-	 * @ORM\Column(name="admin_level", type="int", options={"default:1"}, nullable=false)
+	 * @ORM\Column(name="admin_level", type="smallint", options={"default:1"}, nullable=false)
 	 */
 	private $adminLevel = 1;
 
