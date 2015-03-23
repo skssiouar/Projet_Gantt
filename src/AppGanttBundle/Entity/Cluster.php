@@ -8,6 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Cluster
+ *
  * @ORM\Table(name="cluster_table")
  * @ORM\Entity(repositoryClass="AppGanttBundle\Entity\ClusterRepository")
  */
