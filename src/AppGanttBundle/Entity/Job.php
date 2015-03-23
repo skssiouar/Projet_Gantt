@@ -191,8 +191,8 @@ class Job {
 	private $wckey;
 	
 	/**
-	 * @ORM\Column(name="track_steps", type="boolean", options={"default":false})
+	 * @ORM\Column(name="track_steps", type="boolean", nullable=false)
 	 */
-	private $deleted = false;
+	private $trackSteps = false;
 }
 ?>

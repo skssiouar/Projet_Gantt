@@ -26,7 +26,7 @@ On pourrait afficher un petit diagramme de Gantt des jobs de ce noeud, la liste 
 **Vue -> node_info.html.twig**
 
 ### La page des détails d'un job
-En cliquant sur un job sur le diagramme de Gantt, on est redirigé sur cette page affichant les informations complètes sur le job.
+En cliquant sur un job sur le diagramme de Gantt, on est redirigé sur cette page affichant les informations complètes sur le job. <br />
 **Vue -> job_info.html.twig**
 
 ### La page des noeuds libres

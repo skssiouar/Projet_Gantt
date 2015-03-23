@@ -190,6 +190,9 @@ class Job {
 	 */
 	private $wckey;
 	
-	
+	/**
+	 * @ORM\Column(name="track_steps", type="boolean", options={"default":false})
+	 */
+	private $trackSteps = false;
 }
 ?>
