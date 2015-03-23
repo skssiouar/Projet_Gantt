@@ -31,7 +31,7 @@ class Reservation {
 	private $assoclist;
 	
 	/**
-	 * @ORM\Column(name="cpus", type="int", nullable=false, options={"unsigned":true})
+	 * @ORM\Column(name="cpus", type="int", nullable=false, options={"unsigned":false})
 	 */
 	private $cpus;
 	
